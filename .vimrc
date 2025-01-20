@@ -4,8 +4,9 @@
 :nmap <C-j> <C-w>j
 :nmap <C-k> <C-w>k
 
-" Turn on line numbers
+" Window changes
 :set number
+:set ruler
 
 " Turn on show mode
 :set showmode
