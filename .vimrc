@@ -3,10 +3,13 @@
 :nmap <C-l> <C-w>l
 :nmap <C-j> <C-w>j
 :nmap <C-k> <C-w>k
+nnoremap <silent><TAB> :bp<CR>
+nnoremap <silent><S-TAB> :bn<CR>
 
 " Window changes
 :set number
 :set ruler
+:set showtabline=2
 
 " Turn on show mode
 :set showmode
