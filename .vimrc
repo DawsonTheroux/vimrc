@@ -21,8 +21,11 @@ nnoremap <silent><S-TAB> :bn<CR>
 " Whitespace
 :set tabstop=2
 :set softtabstop=2
-
 :set smartindent
 
+" Source the working dir vimrc
+:set exrc
+
 " -- Custom remaps --
-:nmap <C-s> q:/
+" Use CTRL-s to automatically reverse search previous commands
+" :nmap <C-s> q:/
