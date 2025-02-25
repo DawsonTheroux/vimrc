@@ -8,6 +8,7 @@ nnoremap <silent><S-TAB> :bn<CR>
 
 " Window changes
 :set number
+:set relativenumber
 :set ruler
 :set showtabline=2
 
