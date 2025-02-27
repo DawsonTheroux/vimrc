@@ -20,9 +20,10 @@ nnoremap <silent><S-TAB> :bn<CR>
 :set history=1000
 
 " Whitespace
-:set tabstop=2
-:set softtabstop=2
+:set tabstop=4
+:set softtabstop=4
 :set smartindent
+:set expandtab
 
 " Source the working dir vimrc
 :set exrc
